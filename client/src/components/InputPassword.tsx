@@ -46,7 +46,7 @@ function InputPassword({
         placeholder={placeholder}
         value={password}
         onChange={handleChange}
-        className="w-full text-black placeholder:text-slate-800 border-2 border-[#8696AC] outline-none rounded-md px-4 py-2"
+        className="w-full text-black placeholder:text-slate-500 border-2 border-[#8696AC] outline-none rounded-md px-4 py-2"
       />
       <button
         className="absolute text-sm font-medium text-black right-4"

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import { Homepage, Login } from "../pages";
+import { Homepage, Login, Register } from "../pages";
 
 export const router = createBrowserRouter([
   {
@@ -9,6 +9,7 @@ export const router = createBrowserRouter([
     children: [
       { path: "", element: <Homepage /> },
       { path: "/api.id.me/en/session/new", element: <Login /> },
+      { path: "/api.id.me/en/registration/new", element: <Register /> },
     ],
   },
 ]);
