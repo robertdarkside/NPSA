@@ -16,14 +16,6 @@ dotenv.config();
 // Middleware for handling CORS POLICY
 app.use(cors());
 
-// app.use(
-//   cors({
-//     origin: "http://localhost:5173",
-//     methods: ["GET", "POST", "PUT", "DELETE"],
-//     allowedHeaders: ["Content-Type"],
-//   })
-// );
-
 // makes all user routes active
 app.use("/user", userRoutes);
 
@@ -46,5 +38,5 @@ connectToDatabase();
 // used to get a resource from our running {PORT} server
 app.get("/", (request, response) => {
   console.log(request);
-  return response.status(234).send("The backend of an authentication");
+  return response.status(234).send("The backend of an authentication ");
 });
