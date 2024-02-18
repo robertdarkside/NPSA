@@ -14,15 +14,15 @@ app.use(express.json());
 dotenv.config();
 
 // Middleware for handling CORS POLICY
-// app.use(cors());
+app.use(cors());
 
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type"],
-  })
-);
+// app.use(
+//   cors({
+//     origin: "http://localhost:5173",
+//     methods: ["GET", "POST", "PUT", "DELETE"],
+//     allowedHeaders: ["Content-Type"],
+//   })
+// );
 
 // makes all user routes active
 app.use("/user", userRoutes);
