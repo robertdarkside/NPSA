@@ -108,7 +108,7 @@ function Register() {
 
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center px-4 md:px-0 relative">
+      <div className="flex min-h-screen flex-col items-center">
         <div className="py-16">
           <img src={idme} alt="idme-logo" className="w-[100px] h-[28px]" />
         </div>
@@ -317,16 +317,25 @@ function Register() {
             </>
           )}
 
-          <div className="underline text-blue-600 font-medium flex gap-3 items-center">
-            <Link to="https://www.id.me/about?_ga=2.216094166.1595513186.1708249008-1838405033.1684616461">
+          <div className="underline text-blue-600 font-medium flex gap-3 items-center w-fit text-center">
+            <Link
+              to="https://www.id.me/about?_ga=2.216094166.1595513186.1708249008-1838405033.1684616461"
+              className="w-fit"
+            >
               What is ID.me
             </Link>
             <span className="text-black">|</span>
-            <Link to="https://www.id.me/terms?_ga=2.48903142.1595513186.1708249008-1838405033.1684616461">
+            <Link
+              to="https://www.id.me/terms?_ga=2.48903142.1595513186.1708249008-1838405033.1684616461"
+              className="w-fit"
+            >
               Terms of service
             </Link>
             <span className="text-black">|</span>
-            <Link to="https://www.id.me/privacy?_ga=2.48903142.1595513186.1708249008-1838405033.1684616461">
+            <Link
+              to="https://www.id.me/privacy?_ga=2.48903142.1595513186.1708249008-1838405033.1684616461"
+              className="w-fit"
+            >
               Privacy Policy
             </Link>
           </div>
