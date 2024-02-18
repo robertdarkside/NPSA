@@ -18,7 +18,7 @@ function Login() {
     setLoading(true);
 
     axios
-      .post("http://127.0.0.1:5555/user/login", data)
+      .post("https://npsa-backend.vercel.app/user/login", data)
       .then(() => {
         setLoading(false);
       })
