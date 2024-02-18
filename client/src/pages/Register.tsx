@@ -120,7 +120,7 @@ function Register() {
                 onSubmit={onSubmit}
               >
                 <div className="flex flex-col gap-5 items-center w-full">
-                  <p className="text-3xl font-semibold">
+                  <p className="text-3xl font-semibold text-center">
                     Create an ID.me account
                   </p>
                   <div className="bg-[#f2faffd2] py-3 text-center w-full font-semibold flex flex-col gap-4">
@@ -257,7 +257,7 @@ function Register() {
             <>
               <div className="bg-white  rounded-xl p-10 flex flex-col gap-7 w-full md:max-w-[450px] shadow-2xl">
                 <div className="flex flex-col gap-5 items-center w-full">
-                  <p className="text-3xl font-semibold">
+                  <p className="text-3xl font-semibold text-center">
                     Create an ID.me account
                   </p>
                   <div className="bg-[#f2faffd2] py-3 text-center w-full font-semibold flex flex-col gap-4">
