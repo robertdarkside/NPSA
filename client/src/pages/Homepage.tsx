@@ -1,6 +1,7 @@
 import {
   About,
   Contact,
+  FAQs,
   Features,
   Footer,
   Header,
@@ -8,19 +9,24 @@ import {
   Services,
   Team,
   Testimonials,
+  BlogNews,
+  WorkProcess,
 } from "../components";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       <Header />
       <Services />
-      <Features />
       <About />
+      <Features />
+      <WorkProcess />
       <Team />
       <Testimonials />
+      <FAQs />
       <Contact />
+      <BlogNews />
       <Footer />
     </div>
   );

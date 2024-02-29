@@ -1,3 +1,5 @@
+export const routes = ["about", "features", "services", "f.a.qs", "blog"];
+
 export const Information = {
   authorNo: "+15202619012",
   acronym: "NPSA",
@@ -49,31 +51,110 @@ export const menu = [
   "About NPSA",
 ];
 
+import image1 from "../assets/person1.png";
+import image2 from "../assets/person2.png";
+import image3 from "../assets/person3.svg";
+import image4 from "../assets/person4.png";
+import image5 from "../assets/person1.png";
+
 export const team = [
   {
-    name: "",
-    title: "",
-    image: "",
+    name: "Dusana Semenova",
+    title: "Finance",
+    image: image1,
   },
   {
     name: "Audrey Y. Davis",
     title: "Director",
-    image: "",
+    image: image2,
   },
   {
     name: "Sandra V. Bryant",
     title: "Chief of Staff",
-    image: "",
+    image: image3,
   },
   {
     name: "Cody Zody",
     title: "Chief Financial Officer",
-    image: "",
+    image: image4,
+  },
+];
+
+export const TestimonialData = [
+  {
+    id: 0,
+    name: "Jordan Ntolo",
+    story:
+      "A bank is a financial institution licensed to receive deposits and make loans.",
+    displayPicture: image1,
+    stars: 5,
   },
   {
-    name: "Richard Davis",
-    title: "",
-    image: "",
+    id: 1,
+    name: "Cameron Rogers",
+    story:
+      "Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes.",
+    displayPicture: image2,
+    stars: 4,
+  },
+  {
+    id: 2,
+    name: "Harinder Mondi",
+    story:
+      "There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+    displayPicture: image3,
+    stars: 5,
+  },
+  {
+    id: 3,
+    name: "Jason Bailey",
+    story:
+      "Banking is defined as the business activity of accepting and safeguarding money owned by other individuals.",
+    displayPicture: image4,
+    stars: 4,
+  },
+  {
+    id: 4,
+    name: "Jose Esteve",
+    story:
+      "Accepting and safeguarding money owned by other individuals and entities, and then lending out this money in order to conduct economic.",
+    displayPicture: image5,
+    stars: 3,
+  },
+  {
+    id: 5,
+    name: "Salma Fonseca",
+    story:
+      "Money in order to conduct economic activities such as making profit or simply covering operating expenses.",
+    displayPicture: image1,
+    stars: 5,
+  },
+];
+
+export const faqData = [
+  {
+    id: 0,
+    heading: "What do you mean by bank?",
+    details:
+      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+  },
+  {
+    id: 1,
+    heading: "How many types of bank are there?",
+    details:
+      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+  },
+  {
+    id: 2,
+    heading: "What are the two meanings of bank?",
+    details:
+      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+  },
+  {
+    id: 3,
+    heading: "How do banks work?",
+    details:
+      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
   },
 ];
 
@@ -130,5 +211,102 @@ export const departments = [
   },
 ];
 
+import article1 from "../assets/article1.svg";
+import article2 from "../assets/article2.svg";
+import article3 from "../assets/article3.svg";
+
+export const articles = [
+  {
+    image: article1,
+    title:
+      "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+    desc: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+    date: "11 May, 2021",
+  },
+  {
+    image: article2,
+    title: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+    desc: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+    date: "10 May, 2021",
+  },
+  {
+    image: article3,
+    title: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+    desc: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+    date: "5 May, 2021",
+  },
+];
+
 export const story =
   "Our vision is 'To be a valued partner in financial management by consistently delivering first class services and products.. Our vision captures what we must be in the future to meet our customers’ needs. Our customers continue to adapt to rapid changes in their mission requirements. At the same time, the Department is focused on business efficiency to be able to invest in the operational readiness of our military in a resource-constrained environment. To best serve our customers, we must partner to provide leadership in all aspects of financial management. We will help our customers make cost-effective decisions, implement technology solutions, and achieve audit steadiness.";
+
+import briefcase from "../assets/briefcase.svg";
+import rocket from "../assets/rocket.svg";
+import person from "../assets/person-fu.svg";
+
+export const features = [
+  {
+    image: briefcase,
+    title: "Establish your plans for your future",
+    desc: "lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum",
+  },
+  {
+    image: rocket,
+    title: "Detailed steps of how the business",
+    desc: "lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum",
+  },
+  {
+    image: person,
+    title: "The process of creating goals",
+    desc: "lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum",
+  },
+];
+
+export const infoData = [
+  {
+    heading: "Lorem ipsum",
+    title: "Lorem ipsum ipsum ipsum ipsum",
+    description: "lorem ipsum ipsum ipsum ipsum",
+    list: ["lorem ipsum", "ipsum ipsum", "ipsum lorem"],
+  },
+  {
+    heading: "Lorem ipsum",
+    title: "Lorem ipsum ipsum ipsum ipsum",
+    description: "lorem ipsum ipsum ipsum ipsum",
+    list: ["lorem ipsum", "ipsum ipsum", "ipsum lorem"],
+  },
+  {
+    heading: "Lorem ipsum",
+    title: "Lorem ipsum ipsum ipsum ipsum",
+    description: "lorem ipsum ipsum ipsum ipsum",
+    list: ["lorem ipsum", "ipsum ipsum", "ipsum lorem"],
+  },
+];
+
+import process1 from "../assets/process1.svg";
+import process2 from "../assets/process2.svg";
+import process3 from "../assets/process3.svg";
+import process4 from "../assets/process4.svg";
+
+export const process = [
+  {
+    image: process1,
+    title: "lorem ipsum ipsum",
+    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+  },
+  {
+    image: process2,
+    title: "lorem ipsum ipsum",
+    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+  },
+  {
+    image: process3,
+    title: "lorem ipsum ipsum",
+    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+  },
+  {
+    image: process4,
+    title: "lorem ipsum ipsum",
+    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+  },
+];

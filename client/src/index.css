@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .trans {
+    @apply transition duration-300 ease-in-out scale-110 font-semibold;
+  }
+  .h1 {
+    @apply font-bold md:text-[40px] text-[34px];
+  }
+  .section {
+    @apply lg:px-16 md:px-8 px-4 py-16 lg:py-20;
+  }
+  .hp-section {
+    @apply lg:px-16 md:px-8 py-16 lg:py-20;
+  }
+  .subheading {
+    @apply text-[16px] text-[#7270DD] font-medium;
+  }
+  .heading {
+    @apply font-bold text-[#12345B] text-[40px] lg:text-[50px];
+  }
+  .gradient {
+    @apply bg-gradient-to-b from-[#494AC7] to-[#CD5C8D];
+  }
+}

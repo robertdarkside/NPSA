@@ -7,6 +7,11 @@ import Navbar from "./Navbar";
 import Services from "./Services.tsx";
 import Team from "./Team.tsx";
 import Testimonials from "./Testimonials.tsx";
+import Stories from "./Stories.tsx";
+import FAQs from "./FAQs.tsx";
+import BlogNews from "./BlogNews.tsx";
+import Info from "./Info.tsx";
+import WorkProcess from "./WorkProcess.tsx";
 
 export {
   About,
@@ -18,4 +23,9 @@ export {
   Services,
   Team,
   Testimonials,
+  Stories,
+  FAQs,
+  BlogNews,
+  Info,
+  WorkProcess,
 };
