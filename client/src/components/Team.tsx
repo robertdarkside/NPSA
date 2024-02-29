@@ -3,27 +3,8 @@ import React from "react";
 import { team } from "../assets/data";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
-const Main = styled.div`
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-`;
-
 const Team = () => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
-
-  let lengthOfArr = team?.length;
-
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === lengthOfArr - 1 ? 0 : currentSlide + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? lengthOfArr - 1 : currentSlide - 1);
-  };
 
   const choiceSlide = (index: number) => {
     setCurrentSlide(index);
@@ -81,9 +62,11 @@ const Team = () => {
               <span
                 className={`${
                   currentSlide === index ? " bg-[#7271DA]" : " bg-[#C0CAE7]"
-                } rounded-full border-[#101E1C] border cursor-pointer h-[12px] w-[12px]`}
+                } rounded-full border-[#101E1C] border cursor-pointer h-[15px] w-[15px] text-transparent`}
                 onClick={() => choiceSlide(index)}
-              />
+              >
+                {item.name}
+              </span>
             </div>
           ))}
         </div>
