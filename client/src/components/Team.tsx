@@ -1,7 +1,5 @@
-import styled from "styled-components";
 import React from "react";
 import { team } from "../assets/data";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 const Team = () => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
