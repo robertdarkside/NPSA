@@ -6,6 +6,9 @@
   .trans {
     @apply transition duration-300 ease-in-out scale-110 font-semibold;
   }
+  .h-super {
+    @apply font-bold md:text-[46px] text-[40px];
+  }
   .h1 {
     @apply font-bold md:text-[40px] text-[34px];
   }

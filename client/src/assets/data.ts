@@ -310,3 +310,27 @@ export const process = [
     desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
   },
 ];
+
+export const details = [{}];
+
+import mail from "../assets/mail.svg";
+import map from "../assets/map.svg";
+import phone from "../assets/phone.svg";
+
+export const contact = [
+  {
+    title: "Visit Us",
+    image: map,
+    details: "2383  Rockford Mountain Lane, Raleigh, NC",
+  },
+  {
+    title: "Call Us",
+    image: phone,
+    details: "+1 (5202) 161-90-12",
+  },
+  {
+    title: "Mail Us",
+    image: mail,
+    details: "info@npsa.com",
+  },
+];
