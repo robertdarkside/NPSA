@@ -27,4 +27,15 @@
   .gradient {
     @apply bg-gradient-to-b from-[#494AC7] to-[#CD5C8D];
   }
+  .bg-homepage {
+    background-image: url("./assets/homepage.svg");
+  }
+
+  .bg-faq {
+    background-image: url("./assets/faq_bg_pic.svg");
+  }
+
+  .bg-about {
+    background-image: url("./assets/bg-about.svg");
+  }
 }

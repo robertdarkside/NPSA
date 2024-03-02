@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 const About = () => {
   return (
     <div
-      className="section bg-about-bg w-full min-h-screen bg-cover md:bg-center bg-left-bottom text-white flex items-center"
+      className="section bg-about w-full min-h-screen bg-cover md:bg-center bg-left-bottom text-white flex items-center"
       id="about"
     >
       <div className="flex flex-col lg:flex-row gap-10 h-full">

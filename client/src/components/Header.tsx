@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className="hp-section bg-home-bg bg-opacity-85 w-full h-full lg:bg-cover lg:bg-center bg-right-top">
+    <div className="hp-section bg-homepage bg-opacity-85 w-full h-full lg:bg-cover lg:bg-center bg-right-top">
       <div className="flex lg:flex-row flex-col items-end lg:items-center justify-center h-fit w-fit lg:min-h-screen">
         <div className="flex-1 bg-black flex flex-col gap-3 text-white p-10 lg:max-w-[600px] h-fit">
           <p className="text-[#A4A2FF] font-semibold">WE PROTECT AND SECURE</p>

@@ -3,7 +3,13 @@ import { contact } from "../assets/data";
 import { Footer } from "../components";
 import { GoArrowRight } from "react-icons/go";
 
+import { useEffect } from "react";
+
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const onSubmit = (e: any) => {
     e.prevent.Default;
   };

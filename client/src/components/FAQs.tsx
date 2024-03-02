@@ -12,7 +12,7 @@ import { faqData } from "../assets/data";
 const FAQs = () => {
   return (
     <div
-      className="section bg-faq-bg bg-opacity-85 w-full h-full bg-cover bg-center"
+      className="section bg-faq bg-opacity-85 w-full h-full bg-cover bg-center"
       id="f.a.qs"
     >
       <div className="lg:min-h-screen flex flex-col lg:flex-row items-center justify-center h-full">
