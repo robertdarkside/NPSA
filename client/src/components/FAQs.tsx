@@ -28,7 +28,7 @@ const FAQs = () => {
               <div key={index} className="flex flex-col items-center">
                 <Accordion
                   allowZeroExpanded={true}
-                  className="flex flex-col gap-4 justify-center md:w-[600px] w-full px-10"
+                  className="flex flex-col gap-4 justify-center md:w-[600px] w-full lg:px-4"
                 >
                   <AccordionItem className="border-b-[1px] py-3  border-[#F3E5D4]">
                     <AccordionItemHeading>

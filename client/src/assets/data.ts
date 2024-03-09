@@ -59,15 +59,12 @@ import image5 from "../assets/person1.png";
 
 export const team = [
   {
-    name: "Dusana Semenova",
-    title: "Finance",
-    image: image1,
-  },
-  {
     name: "Audrey Y. Davis",
     title: "Director",
     image: image2,
   },
+  
+  
   {
     name: "Sandra V. Bryant",
     title: "Chief of Staff",
@@ -75,8 +72,13 @@ export const team = [
   },
   {
     name: "Cody Zody",
-    title: "Chief Financial Officer",
+    title: "Chief of Cybersecurity",
     image: image4,
+  },
+  {
+    name: "Dusana Semenova",
+    title: "Head of Intelligence",
+    image: image1,
   },
 ];
 
@@ -85,7 +87,7 @@ export const TestimonialData = [
     id: 0,
     name: "Jordan Ntolo",
     story:
-      "A bank is a financial institution licensed to receive deposits and make loans.",
+      "I am writing to express my sincere gratitude to NPSA for their invaluable assistance in the recovery of a recently stolen asset. Their expertise in cybersecurity was instrumental. Throughout the recovery, the NPSA team demonstrated the utmost professionalism and discretion, qualities i deeply appreciate, thank you!",
     displayPicture: image1,
     stars: 5,
   },
@@ -93,7 +95,7 @@ export const TestimonialData = [
     id: 1,
     name: "Cameron Rogers",
     story:
-      "Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes.",
+      "We recently encountered a significant security challenge regarding data breaches. The NPSA's intervention and guidance proved critical. Their timely and professional approach significantly mitigated potential risks.",
     displayPicture: image2,
     stars: 4,
   },
@@ -101,7 +103,7 @@ export const TestimonialData = [
     id: 2,
     name: "Harinder Mondi",
     story:
-      "There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+      "Our collaboration with the NPSA on a recent project has demonstrably improved our organization's overall security posture. Their insights and recommendations regarding critical infrastructure protection have been invaluable in preventing disruptions that could have cascading effects . We appreciate their dedication to national security.",
     displayPicture: image3,
     stars: 5,
   },
@@ -109,7 +111,7 @@ export const TestimonialData = [
     id: 3,
     name: "Jason Bailey",
     story:
-      "Banking is defined as the business activity of accepting and safeguarding money owned by other individuals.",
+      "While the specifics of our project with the NPSA remain confidential, we can confidently say that their involvement played a vital role in its success. They provided invaluable guidance while strictly adhering to confidentiality protocols. We commend their commitment to both security and discretion.",
     displayPicture: image4,
     stars: 4,
   },
@@ -117,7 +119,7 @@ export const TestimonialData = [
     id: 4,
     name: "Jose Esteve",
     story:
-      "Accepting and safeguarding money owned by other individuals and entities, and then lending out this money in order to conduct economic.",
+      "The success of our latest project would not have been possible without the partnership of the NPSA. Their collaborative approach and security expertise were instrumental in ensuring a smooth and secure project execution. We are grateful for their commitment to working alongside us.",
     displayPicture: image5,
     stars: 3,
   },
@@ -125,7 +127,7 @@ export const TestimonialData = [
     id: 5,
     name: "Salma Fonseca",
     story:
-      "Money in order to conduct economic activities such as making profit or simply covering operating expenses.",
+      "The NPSA's assistance proved essential in ensuring  necessary compliance standards. Their expertise in navigating complex security regulations streamlined the process significantly. We appreciate their dedication to upholding the highest security standards.",
     displayPicture: image1,
     stars: 5,
   },
@@ -134,28 +136,47 @@ export const TestimonialData = [
 export const faqData = [
   {
     id: 0,
-    heading: "What do you mean by bank?",
+    heading: "What is the NPSA's primary mission?",
     details:
-      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+      "The NPSA's primary mission is to safeguard the nation by addressing a range of security threats, including terrorism, cyber attacks, espionage, and other risks to national security",
   },
   {
     id: 1,
-    heading: "How many types of bank are there?",
+    heading: "How does the NPSA gather intelligence?",
     details:
-      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+      "The NPSA employs a comprehensive approach to intelligence gathering, utilizing human intelligence, signals intelligence, and advanced technology to assess potential threats and vulnerabilities",
   },
   {
     id: 2,
-    heading: "What are the two meanings of bank?",
+    heading: "How does the NPSA collaborate internationally?",
     details:
-      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+      "The NPSA actively engages in international partnerships, fostering global cooperation through information sharing, joint operations, and diplomatic efforts to address security challenges on a global scale.",
   },
   {
     id: 3,
-    heading: "How do banks work?",
+    heading: "What is the NPSA's approach to cybersecurity?",
     details:
-      "A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks.",
+      "The NPSA employs advanced cybersecurity measures to protect national digital assets, utilizing cutting-edge technologies and practices to ensure the integrity and security of critical infrastructure.",
   },
+  {
+    id: 4,
+    heading: "How does the NPSA engage with the public?",
+    details:
+      "The NPSA prioritizes public awareness and community engagement through outreach programs and transparent communication, building trust and fostering a sense of collective responsibility in maintaining national security.",
+  },
+  {
+    id: 5,
+    heading: "What happens after a security operation is conducted by the NPSA?",
+    details:
+      "Following each operation, the NPSA conducts a thorough evaluation to assess effectiveness, identify areas for improvement, and adapt strategies to evolving security challenges.",
+  },
+  {
+    id: 6,
+    heading: "How does the NPSA balance security measures with individual freedoms?",
+    details:
+      "The NPSA operates within a strong legal and ethical framework, upholding principles of privacy, human rights, and adherence to the rule of law to maintain a balance between security measures and individual freedoms.",
+  },
+  
 ];
 
 export const departments = [
@@ -241,45 +262,46 @@ export const story =
   "Our vision is 'To be a valued partner in financial management by consistently delivering first class services and products.. Our vision captures what we must be in the future to meet our customers’ needs. Our customers continue to adapt to rapid changes in their mission requirements. At the same time, the Department is focused on business efficiency to be able to invest in the operational readiness of our military in a resource-constrained environment. To best serve our customers, we must partner to provide leadership in all aspects of financial management. We will help our customers make cost-effective decisions, implement technology solutions, and achieve audit steadiness.";
 
 import briefcase from "../assets/briefcase.svg";
-import rocket from "../assets/rocket.svg";
+// import rocket from "../assets/rocket.svg";
 import person from "../assets/person-fu.svg";
+import shield from "../assets/shield.png"
 
 export const features = [
   {
     image: briefcase,
-    title: "Establish your plans for your future",
-    desc: "lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum",
+    title: "Integrated Security Operations",
+    desc: "The NPSA ensures national security through robust intelligence gathering, advanced cybersecurity, and specialized counterterrorism units",
   },
   {
-    image: rocket,
-    title: "Detailed steps of how the business",
-    desc: "lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum",
+    image: shield,
+    title: "Strategic Defense Infrastructure",
+    desc: "Safeguarding borders and critical infrastructure, the NPSA utilizes innovative technologies, strategic border control, and efficient emergency response coordination.",
   },
   {
     image: person,
-    title: "The process of creating goals",
-    desc: "lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum lorem ipsum ipsum ipsum",
+    title: "Ethical Collaboration  & Leadership",
+    desc: "Demonstrating ethical leadership, the NPSA fosters global cooperation through international partnerships, public awareness initiatives, and strong legal standards.",
   },
 ];
 
 export const infoData = [
   {
-    heading: "Lorem ipsum",
-    title: "Lorem ipsum ipsum ipsum ipsum",
-    description: "lorem ipsum ipsum ipsum ipsum",
-    list: ["lorem ipsum", "ipsum ipsum", "ipsum lorem"],
+    
+    title: "Intelligence Gathering and Analysis",
+    description: "The NPSA excels in intelligence gathering from various sources to stay ahead of potential security threats.",
+    list: ["advanced analysis techniques", "providing actionable intelligence", "strategic and tactical decision making"],
   },
   {
-    heading: "Lorem ipsum",
-    title: "Lorem ipsum ipsum ipsum ipsum",
-    description: "lorem ipsum ipsum ipsum ipsum",
-    list: ["lorem ipsum", "ipsum ipsum", "ipsum lorem"],
+    
+    title: "Cybersecurity Measures",
+    description: "In the digital age, cybersecurity is paramount. The NPSA is at the forefront of",
+    list: ["protecting the nation's critical infrastructure", "safe guarding sensitive information from cyber threats", "employing strategies to detect, prevent, and respond to cyber attacks"],
   },
   {
-    heading: "Lorem ipsum",
-    title: "Lorem ipsum ipsum ipsum ipsum",
-    description: "lorem ipsum ipsum ipsum ipsum",
-    list: ["lorem ipsum", "ipsum ipsum", "ipsum lorem"],
+    
+    title: "Technology and Innovation Integration",
+    description: "The NPSA leverages advanced technologies and innovation to enhance its operational capabilities including:",
+    list: ["surveillance systems", "data analytics and artificial intelligence,", "cutting-edge tools to stay ahead of emerging threats."],
   },
 ];
 
@@ -291,23 +313,23 @@ import process4 from "../assets/process4.svg";
 export const process = [
   {
     image: process1,
-    title: "lorem ipsum ipsum",
-    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+    title: "Threat Assessment and Intelligence Gathering",
+    desc: "Begin with a detailed analysis of potential security threats, utilizing human and signals intelligence along with advanced technology.",
   },
   {
     image: process2,
-    title: "lorem ipsum ipsum",
-    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+    title: "Strategic Planning and Operational Design",
+    desc: "Formulate strategic plans and operational designs based on threat assessments, ensuring resource efficiency and a coordinated response.",
   },
   {
     image: process3,
-    title: "lorem ipsum ipsum",
-    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+    title: "Implementation and Response Coordination",
+    desc: "Execute intelligence-driven operations, deploy specialized units, and coordinate responses to security incidents in a timely and efficient manner.",
   },
   {
     image: process4,
-    title: "lorem ipsum ipsum",
-    desc: "lorem lorem lorem lorem lorem lorem lorem lorem",
+    title: "Evaluation and Adaptation",
+    desc: "Conduct thorough evaluations post-operations, identify areas for improvement, and adapt strategies to evolving security challenges.",
   },
 ];
 

@@ -7,7 +7,7 @@ const WorkProcess = () => {
         <p className="subheading">OUR WORK PROCESS</p>
         <p className="heading text-white">How we work</p>
       </div>
-      <div className="flex flex-col md:flex-row gap-10 lg:justify-between items-center">
+      <div className="flex flex-col md:flex-row gap-10  items-start lg:justify-between lg:items-center">
         {process.map((item, index) => (
           <div className="flex flex-col gap-3 text-white relative" key={index}>
             <div className="h-[40px] w-[40px] gradient rounded-full flex items-center justify-center text-white font-bold absolute -top-[15px] -left-[15px]">

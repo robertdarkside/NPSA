@@ -40,8 +40,8 @@ const Navbar = () => {
   return (
     <div
       className={` ${
-        scrollBlack ? "bg-black" : "bg-transparent"
-      }   lg:text-white lg:px-12 md:px-8 lg:py-2 py-1 fixed top-0 z-30 w-full`}
+        scrollBlack ? "bg-black bg-opacity-50" : "bg-black bg-opacity-30"
+      }   text-white lg:px-12 md:px-8 lg:py-2 py-1 fixed top-0 z-30 w-full`}
     >
       {/* for pcs and tabs */}
       <div className="hidden md:flex items-center justify-between ">
@@ -72,7 +72,7 @@ const Navbar = () => {
             </Link>
           ))}
         </ul>
-        <Navigate to="contact" className="hover: cursor-pointer">
+        <Navigate to="contact" className="hover: cursor-pointer hover:trans capitalize">
           Contact
         </Navigate>
       </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
       {/* for phones */}
       <div
         className={`md:hidden flex items-center justify-between text-white px-4 ${
-          nav && "bg-[#CCE0FF]"
+          nav && "bg-[#A4A2FF]"
         } `}
       >
         <Link
@@ -104,7 +104,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <div className="flex flex-col gap-16 items-center h-screen pt-10 bg-[#CCE0FF] px-4 text-3xl">
+        <div className="flex flex-col gap-12 items-center h-screen py-10 bg-[#A4A2FF] px-4 text-3xl">
           {routes.map((route, i) => (
             <Link
               activeClass="active"
@@ -114,13 +114,13 @@ const Navbar = () => {
               smooth={true}
               offset={-50}
               duration={500}
-              className="hover:cursor-pointer capitalize"
+              className="hover:cursor-pointer capitalize hover:trans "
               onClick={handleNav}
             >
               {route}
             </Link>
           ))}
-          <Navigate to="contact" className="hover: cursor-pointer">
+          <Navigate to="contact" className="hover: cursor-pointer hover:trans">
             Contact
           </Navigate>
         </div>

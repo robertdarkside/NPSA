@@ -69,13 +69,13 @@ const BlogNews = () => {
         </Link>
       </div>
       <div className="pt-10">
-        <div className="flex flex-col lg:flex-row items-center gap-8 justify-between">
+        <div className="flex flex-col lg:flex-row items-center gap-8 justify-center">
           {posts?.slice(0, 3).map((item, index) => (
             <a
               href={item.url}
               rel="noopener noreferrer"
               key={index}
-              className="border-[1px] border-black hover:cursor-pointer lg:hover:trans"
+              className="border-[1px] border-black hover:cursor-pointer lg:hover:trans h-fit w-fit"
             >
               <img
                 src={item?.image}

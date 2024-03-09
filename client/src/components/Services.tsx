@@ -15,12 +15,9 @@ const Services = () => {
         <div className="flex-1 order-1 lg:order-2">
           <div className="flex flex-col gap-3 lg:max-w-[450px]">
             <p className="subheading">SERVICE</p>
-            <p className="heading">Effective Services</p>
+            <p className="heading">NPSA Services</p>
             <p>
-              Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-              ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum{" "}
-              Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-              ipsum
+              The National Protection and Security Agency (NPSA) offers a range of effective services designed to safeguard the nation against various security threats. These services reflect the agency's commitment to excellence, innovation, and proactive measures to ensure the safety and security of its citizens. Below are some key effective services provided by the NPSA:
             </p>
           </div>
         </div>

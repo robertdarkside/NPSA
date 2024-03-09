@@ -11,24 +11,21 @@ const About = () => {
         <div className="flex items-start justify-start flex-1">
           <div className="flex flex-col gap-3 justify-start items-start">
             <p className="subheading text-[A4A2FF]">ABOUT</p>
-            <p className="font-bold text-[30px] lg:text-[40px] leading-[50px]">
-              The definition of business is an occupation or trade and the
-              purchase and sale of products or services to make a profit.
+            <p className="text-[24px]">
+              The National Protection and Security Agency (NPSA) is a governmental organization dedicated to safeguarding the nation against a spectrum of security threats. The agency operates within a robust legal and ethical framework, fostering global cooperation, public awareness, and community engagement while adapting strategies to address the dynamic nature of security challenges.
             </p>
-            <Link
+            {/* <Link
               className="py-2 px-8 gradient rounded font-bold hover:trans"
               to="about"
             >
               Learn More
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="flex-1 flex flex-col items-center justify-end">
           <div className="flex-1 flex-col items-end justify-end lg:max-w-[450px]">
             <p className="font-light">
-              The primary purpose of a business plan is to establish your plans
-              for the future. These plans should include goals or milestones
-              alongside detailed steps of how the business will reach each step.
+              With a primary mission encompassing counterterrorism, cybersecurity, intelligence gathering, and emergency response coordination, the NPSA employs a comprehensive and integrated approach to ensure the safety and security of the country.
             </p>
             <div className="flex flex-row pt-4 gap-x-20 gap-y-5 w-full flex-1">
               <div>

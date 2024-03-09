@@ -11,7 +11,7 @@ const Team = () => {
   return (
     <div className="section">
       <p className="subheading">OUR TEAM</p>
-      <p className="heading">Professional Team</p>
+      <p className="heading">Management Team</p>
       <div className="flex flex-col items-center justify-center gap-7 w-full h-full py-8">
         {/* for mobile devices */}
         <div className="lg:hidden flex items-center justify-between">
