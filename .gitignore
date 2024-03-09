@@ -12,6 +12,7 @@ memo.txt
 
 # production
 /build
+/dist
 /build/node_modules
 
 # misc
