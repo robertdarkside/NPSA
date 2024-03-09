@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 
 const About = () => {

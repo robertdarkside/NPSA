@@ -3,6 +3,7 @@
 # dependencies
 client/node_modules
 server/node_modules
+client/dist
 memo.txt
 /.pnp
 .pnp.js
@@ -12,7 +13,7 @@ memo.txt
 
 # production
 /build
-/dist
+
 /build/node_modules
 
 # misc
