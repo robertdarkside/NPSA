@@ -6,8 +6,8 @@ const Header = () => {
       <div className="flex lg:flex-row flex-col items-end lg:items-center justify-center h-fit w-fit lg:min-h-screen">
         <div className="flex-1 bg-black bg-opacity-80 flex flex-col gap-3 text-white p-10 lg:max-w-[600px] min-h-[45vh] justify-center">
           <p className="text-[#A4A2FF] font-semibold">WE PROTECT AND SECURE</p>
-          <h1 className="font-bold text-[45px] lg:text-[70px]">
-            Providing expertise in a specific market
+          <h1 className="font-bold text-[35px] lg:text-[60px]">
+            Safeguarding Tomorrow, Elevate Security Excellence with NPSA Today.
           </h1>
           <div className="flex items-center justify-center">
             <Link
