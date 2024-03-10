@@ -109,7 +109,7 @@ function Register() {
 
   return (
     <div className="relative">
-        <Link to={"/"} className="flex items-start justify-start p-4 absolute top-0">
+        <Link to={"/"} className="flex items-start justify-start p-4 absolute top-0 cursor-pointer">
         <IoHome className=" text-3xl" />
         </Link>
       <div className="flex min-h-screen flex-col items-center">
