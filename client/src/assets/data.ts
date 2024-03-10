@@ -356,3 +356,58 @@ export const contact = [
     details: "info@npsa.com",
   },
 ];
+
+export const policy = {
+  introduction: "Welcome to the National Protection and Security Agency (NPSA). We are committed to protecting the privacy and security of the personal information of our employees, partners, and the public. This Privacy Policy outlines the types of information we may collect from you or that you may provide when you visit our website, use our services, or participate in our programs, and our practices for collecting, using, maintaining, protecting, and disclosing that information.",
+  use: [
+    {
+      name: "Personal Information",
+      description: "We may collect personal information such as your name, address, email address, phone number, and any other information you provide to us voluntarily. This information is used to fulfill your requests, provide services, and communicate with you.",
+    },
+    {
+      name: "Usage Data",
+      description: "We automatically collect information on how the Service is accessed and used. This Usage Data may include details such as your computer's Internet Protocol address (e.g., IP address), browser type, browser version, our service pages that you visit, the time and date of your visit, the time spent on those pages, and other diagnostic data.",
+    },
+    {
+      name: "Tracking & Cookies Data",
+      description: "We use cookies and similar tracking technologies to track the activity on our service and hold certain information. Cookies are files with a small amount of data which may include an anonymous unique identifier.",
+    },
+    
+  ],
+  dataUse: [
+      "To provide and maintain our Service",
+      "To notify you about changes to our Service",
+      "To allow you to participate in interactive features of our Service when you choose to do so",
+      "To provide customer support",
+      "To gather analysis or valuable information so that we can improve our Service",
+      "To monitor the usage of our Service",
+      "To detect, prevent, and address technical issues"
+    ],
+    dataSecurity: "We implement a variety of security measures to maintain the safety of your personal information. However, no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.",
+   dataSharing: "We do not sell, trade, or rent users' personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers for the purposes outlined above.",
+   yourRights: [
+    "Access and receive a copy of the personal data we hold about you",
+    "Rectify any personal data held about you that is inaccurate",
+    "Request the deletion of personal data held about you"
+   ]
+
+}
+
+export const conditions = {
+  introduction: `Welcome to the National Protection and Security Agency (NPSA). The following terms and conditions govern all use of the NPSA's website and all content, services, and products available at or through the website. The Website is owned and operated by the National Protection and Security Agency. The Website is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, NPSA's Privacy Policy), and procedures that may be published from time to time on this Site by NPSA (collectively, the "Agreement").`,
+  notice: "Please read this Agreement carefully before accessing or using the Website. By accessing or using any part of the web site, you agree to become bound by the terms and conditions of this agreement. If you do not agree to all the terms and conditions of this agreement, then you may not access the Website or use any services.",
+  content: "All content provided on the Website is for informational purposes only. The owner of this Website makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site.",
+  copyrightAndContentOwnership: ["All content included on the Site, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is the property of NPSA or its content suppliers and protected by international copyright laws.", "NPSA does not claim ownership of content submitted by users without compensation by NPSA and with the expectation that such content will be made publicly accessible through our website."],
+  siteUse: ["You are responsible for your own communications and for any consequences thereof. You must use the Site in a manner consistent with any and all applicable laws and regulations.", "You agree not to use the Website for any illegal or unauthorized purpose, including but not limited to copyright infringement, defamation, or the transmission of any malicious or harmful content."],
+  disclaimer: 
+    `The Website is provided "as is". NPSA and its suppliers and licensors hereby disclaim all warranties of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose and non-infringement. Neither NPSA nor its suppliers and licensors make any warranty that the Website will be error-free or that access thereto will be continuous or uninterrupted.`,
+  liabilityLimitation: ["In no event will NPSA, or its suppliers or licensors, be liable with respect to any subject matter of this agreement under any contract, negligence, strict liability or other legal or equitable theory for:", "(i) any special, incidental or consequential damages;", "(ii) the cost of procurement for substitute products or services", "(iii) for interruption of use or loss or corruption of data."],
+  generalRepresentation: [
+      "(i) your use of the Website will be in strict accordance with the NPSA Privacy Policy, with this Agreement, and with all applicable laws and regulations (including without limitation any local laws or regulations in your country, state, city, or other governmental area, regarding online conduct and acceptable content, and including all applicable laws regarding the transmission of technical data exported from the country in which you reside) and", "(ii) your use of the Website will not infringe or misappropriate the intellectual property rights of any third party."
+    ],
+  changes: 
+      "NPSA reserves the right, at its sole discretion, to modify or replace any part of this Agreement. It is your responsibility to check this Agreement periodically for changes. Your continued use of or access to the Website following the posting of any changes to this Agreement constitutes acceptance of those changes."
+    
+  
+}
+  

@@ -44,8 +44,8 @@ const Footer = () => {
           Copyright © 2024 NPSA. All Rights Reserved.
         </p>
         <div className="flex justify-between lg:justify-end items-center md:gap-x-10">
-          <p>Terms of Use</p>
-          <p>Privacy Policy</p>
+          <Navigate to={"/conditions"}>Terms of Use</Navigate>
+          <Navigate to={"/policy"}>Privacy Policy</Navigate>
         </div>
       </div>
     </div>

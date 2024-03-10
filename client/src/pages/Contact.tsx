@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import { contact } from "../assets/data";
 import { Footer } from "../components";
-import { GoArrowRight } from "react-icons/go";
-
 import { useEffect } from "react";
+import { IoHome } from "react-icons/io5";
 
 const Contact = () => {
   useEffect(() => {
@@ -16,14 +15,12 @@ const Contact = () => {
 
   return (
     <>
-      <div className="gradient min-h-[50vh] text-white flex flex-col items-center justify-center">
-        <p className="h-super">Contact</p>
-        <div className="flex items-center justify-center gap-4">
-          <Link to={"/"}>Home</Link>
-          <GoArrowRight className="text-xl" />
-          <Link to={"/contact"}>Contact</Link>
-        </div>
-      </div>
+      <div className="gradient min-h-[50vh] text-white flex flex-col items-center justify-center relative">
+      <Link to={"/"} className="flex items-start justify-start p-4 absolute top-0 left-0 cursor-pointer">
+        <IoHome className=" text-3xl" />
+        </Link>
+        <p className="h-super">Contact Us</p>        
+    </div>
       <div className="section flex flex-col gap-10">
         <div>
           <p className="h1 text-center py-10">Get In Touch With Us!</p>

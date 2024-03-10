@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import { GoArrowRight } from "react-icons/go";
 import { Footer } from "../components";
 import moment from "moment";
 import { TbFidgetSpinner } from "react-icons/tb";
+import { IoHome } from "react-icons/io5";
 
 interface Source {
   name: string;
@@ -56,16 +56,12 @@ const Blog = () => {
 
   return (
     <div className="">
-      <div className="gradient min-h-[50vh] text-white flex flex-col items-center justify-center">
-        <p className="h-super">Contact</p>
-        <div className="flex items-center justify-center gap-4">
-          <Link to={"/"} target="_blank">
-            Home
-          </Link>
-          <GoArrowRight className="text-xl" />
-          <Link to={"/blog"}>Blog</Link>
-        </div>
-      </div>
+      <div className="gradient min-h-[50vh] text-white flex flex-col items-center justify-center relative">
+      <Link to={"/"} className="flex items-start justify-start p-4 absolute top-0 left-0 cursor-pointer">
+        <IoHome className=" text-3xl" />
+        </Link>
+        <p className="h-super">Blog News</p>        
+    </div>
       <div className="section py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between gap-10">
           {posts?.map((item, index) => (
