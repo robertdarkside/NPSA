@@ -11,6 +11,7 @@ import linkedin from "../assets/linkedin-logo.svg";
 import apple from "../assets/apple-logo.svg";
 import dslogon from "../assets/dslogon.gif";
 import myhealthevet from "../assets/myhealthevet.gif";
+import { IoHome } from "react-icons/io5";
 
 function Register() {
   const [email, setEmail] = useState("");
@@ -107,7 +108,10 @@ function Register() {
     );
 
   return (
-    <>
+    <div className="relative">
+        <Link to={"/"} className="flex items-start justify-start p-4 absolute top-0">
+        <IoHome className=" text-3xl" />
+        </Link>
       <div className="flex min-h-screen flex-col items-center">
         <div className="py-16">
           <img src={idme} alt="idme-logo" className="w-[100px] h-[28px]" />
@@ -341,7 +345,7 @@ function Register() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

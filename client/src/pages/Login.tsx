@@ -4,6 +4,7 @@ import InputPassword from "../components/InputPassword";
 // import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import idme from "../assets/idme-logo.svg";
+import { IoHome } from "react-icons/io5";
 // images
 import facebook from "../assets/facebook-logo.svg";
 import google from "../assets/google-logo.svg";
@@ -101,8 +102,11 @@ function Login() {
     );
 
   return (
-    <>
-      <div className="flex min-h-screen flex-col items-center">
+    <div className="relative">
+        <Link to={"/"} className="flex items-start justify-start p-4 absolute top-0">
+        <IoHome className=" text-3xl" />
+        </Link>
+      <div className="flex min-h-screen flex-col items-center relative">
         <div className="py-16">
           <img src={idme} alt="idme-logo" className="w-[100px] h-[28px]" />
         </div>
@@ -270,7 +274,7 @@ function Login() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

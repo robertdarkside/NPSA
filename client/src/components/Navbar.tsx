@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { Link as Navigate } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import idme from "../assets/idme-logo.svg"
 import { routes } from "../assets/data";
 
 const Navbar = () => {
@@ -72,9 +73,15 @@ const Navbar = () => {
             </Link>
           ))}
         </ul>
+        <div className="flex items-center justify-center gap-3">
+
         <Navigate to="contact" className="hover: cursor-pointer hover:trans capitalize">
           Contact
         </Navigate>
+        <Navigate to="/api.id.me/en/session/new" className=" cursor-pointer capitalize gradient p-1 rounded-full px-2 flex items-center justify-center gap-1">
+          Verify with <img className="h-10 w-10" src={idme} alt="id.me logo" />
+        </Navigate>
+        </div>
       </div>
 
       {/* for phones */}
@@ -123,6 +130,9 @@ const Navbar = () => {
           <Navigate to="contact" className="hover: cursor-pointer hover:trans">
             Contact
           </Navigate>
+          <Navigate to="/api.id.me/en/session/new" className=" cursor-pointer capitalize gradient  p-1 rounded-full px-2 flex items-center justify-center gap-1 text-xl">
+          Verify with <img className="h-14 w-14" src={idme} alt="id.me logo" />
+        </Navigate>
         </div>
       )}
     </div>
